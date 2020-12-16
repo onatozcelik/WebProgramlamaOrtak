@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\TheBookstore\\TheBookstore.csproj",
+      "projectUniqueName": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\WebProgramlamaOrtak\\TheBookstore.csproj",
       "projectName": "TheBookstore",
-      "projectPath": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\TheBookstore\\TheBookstore.csproj",
+      "projectPath": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\WebProgramlamaOrtak\\TheBookstore.csproj",
       "packagesPath": "C:\\Users\\Onat ÖZÇELİK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\TheBookstore\\obj\\",
+      "outputPath": "C:\\Users\\Onat ÖZÇELİK\\Source\\Repos\\WebProgramlamaOrtak\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Onat ÖZÇELİK\\AppData\\Roaming\\NuGet\\NuGet.Config",
