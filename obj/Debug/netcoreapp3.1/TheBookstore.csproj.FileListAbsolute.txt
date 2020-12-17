@@ -110,3 +110,4 @@ C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\bin\Debug\netcoreapp3.
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Home\List.cshtml.g.cs

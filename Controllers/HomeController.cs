@@ -17,20 +17,51 @@ namespace TheBookstore.Controllers
         {
             _logger = logger;
         }
-
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
+        public IActionResult List()
+        {
+            return View(ProductRepository.Product);
+        }
 
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
+       
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            if(product != null)
+            {
+                ProductRepository.AddProduct(product);
+                return View("List", ProductRepository.Product);
+            }
+            else
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult Search()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Search(string word)
+        {
+            if (string.IsNullOrWhiteSpace(word))
+            {
+                return View();
+            }
+            else
+                return View("List", ProductRepository.Product.Where(i => i.Name.Contains(word)));
+        }
+        [HttpGet]
         public IActionResult Privacy()
         {
             return View();
