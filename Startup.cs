@@ -44,7 +44,7 @@ namespace TheBookstore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            SeedProduct.Seed(app);
             app.UseRouting();
 
             app.UseAuthorization();

@@ -14,8 +14,8 @@ namespace TheBookstore.Models
             _products = new List<Product>()
             {
                 new Product(){ID=1,Name="Don Quixote",Author="Miguel de Cervantes",Price=17,Categories="Paperback",isAvailable=true},
-                new Product(){ID=1,Name="Harry Potter",Author="J.K Rowling",Price=20,Categories="Paperback",isAvailable=true},
-                new Product(){ID=1,Name="The Hunger Games",Author="Suzanne Collins",Price=20,Categories="Paperback",isAvailable=false}
+                new Product(){ID=2,Name="Harry Potter",Author="J.K Rowling",Price=20,Categories="Paperback",isAvailable=true},
+                new Product(){ID=3,Name="The Hunger Games",Author="Suzanne Collins",Price=20,Categories="Paperback",isAvailable=false}
             };
         }
         public static List<Product> Product
