@@ -178,3 +178,14 @@ C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\List\Create.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\List\Delete.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\List\Details.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\List\Edit.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\List\Index.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products1\Create.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products1\Delete.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products1\Details.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products1\Edit.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Products1\Index.cshtml.g.cs
+C:\Users\Onat ÖZÇELİK\Source\Repos\WebProgramlamaOrtak\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Layout1.cshtml.g.cs
