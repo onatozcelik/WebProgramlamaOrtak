@@ -3,65 +3,69 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using TheBookstore.Models;
+using SakariaBookstore.Models;
 
-namespace TheBookstore.Controllers
+namespace SakariaBookstore.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly UserManager<webuser> _userManager;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //_roleManager = roleManager;
+            //_userManager = userManager;
         }
+        /// /Home/CreateRole?role=admin
+        /// 
+
+        
+        public async Task<IActionResult> CreateRole(string role)
+        {
+            await _roleManager.CreateAsync(new IdentityRole(role));
+            return Ok();
+        }
+        public async Task<IActionResult> AddRole(string username,string role)
+        {
+            var user = await _userManager.FindByNameAsync(username);
+            await _userManager.AddToRoleAsync(user, role);
+            return Ok();
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult List()
-        {
-            return View(ProductRepository.Product);
-        }
-
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
-       
+        [HttpGet]
+        public IActionResult List()
+        {
+            return View(ProductRepository.Product);
+        }
         [HttpPost]
         public IActionResult Create(Product product)
         {
-            if(product != null)
+            if (product !=null)
             {
                 ProductRepository.AddProduct(product);
                 return View("List", ProductRepository.Product);
             }
-            else
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Search()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Search(string word)
-        {
-            if (string.IsNullOrWhiteSpace(word))
-            {
-                return View();
-            }
-            else
-                return View("List", ProductRepository.Product.Where(i => i.Name.Contains(word)));
-        }
-        [HttpGet]
+        [Authorize(Roles ="admin")]
         public IActionResult Privacy()
         {
             return View();

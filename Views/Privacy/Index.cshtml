@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Message"] = "";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Privacy/index?culture=tr-Tr*@
+@*Privacy/index?culture=en-US*@
+<div class="text-center">
+    <h1>@Localizer["Baslik"]</h1>
+    <p>@Localizer["Merhaba"]</p>
+    <br>
+    <br>
+    <h2>@Localizer["Consent"]</h2>
+    <p>@Localizer["Text2"]</p>
+    <a class="btn btn-primary" href="https://localhost:44391/Privacy/index?culture=en-US" role="button">ENGLISH(US)</a>
+    <a class="btn btn-primary" href="https://localhost:44391/Privacy/index?culture=tr-TR" role="button">TÜRKÇE</a>
+
+</div>

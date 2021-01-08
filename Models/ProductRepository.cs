@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TheBookstore.Models
+namespace SakariaBookstore.Models
 {
     public static class ProductRepository
     {
+
         private static List<Product> _products;
 
         static ProductRepository()
